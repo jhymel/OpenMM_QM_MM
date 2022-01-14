@@ -14,7 +14,7 @@ When compiling on PACE, need to load the following modules:
  - module load anaconda3
  - module load cuda/10.0
 
-Additionally need the follow libraries installed to your conda environment:
+Additionally need the following libraries installed to your conda environment:
  - conda install -c conda-forge cmake make cython swig fftw doxygen numpy pydantic
  - conda install -c psi4 gau2grid pint libgx
  - conda install -c anaconda lxml scipy
