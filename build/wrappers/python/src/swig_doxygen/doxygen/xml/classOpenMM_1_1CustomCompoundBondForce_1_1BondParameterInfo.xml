@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classOpenMM_1_1CustomCompoundBondForce_1_1BondParameterInfo" kind="class" language="C++" prot="private">
+    <compoundname>OpenMM::CustomCompoundBondForce::BondParameterInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classOpenMM_1_1CustomCompoundBondForce_1_1BondParameterInfo_1a059b8f146a1765b61b23ca430079d9c8" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string OpenMM::CustomCompoundBondForce::BondParameterInfo::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomCompoundBondForce.h" line="402" column="17" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomCompoundBondForce.h" bodystart="402" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classOpenMM_1_1CustomCompoundBondForce_1_1BondParameterInfo_1a03ec170ff3bd6e92efeaf3cc27643b12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>OpenMM::CustomCompoundBondForce::BondParameterInfo::BondParameterInfo</definition>
+        <argsstring>()</argsstring>
+        <name>BondParameterInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomCompoundBondForce.h" line="403" column="5" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomCompoundBondForce.h" bodystart="403" bodyend="404"/>
+      </memberdef>
+      <memberdef kind="function" id="classOpenMM_1_1CustomCompoundBondForce_1_1BondParameterInfo_1aeffc081083a8dfd86affd6c838e879e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>OpenMM::CustomCompoundBondForce::BondParameterInfo::BondParameterInfo</definition>
+        <argsstring>(const std::string &amp;name)</argsstring>
+        <name>BondParameterInfo</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomCompoundBondForce.h" line="405" column="5" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomCompoundBondForce.h" bodystart="405" bodyend="406"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This is an internal class used to record information about a per-bond parameter. </para>
+    </detaileddescription>
+    <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomCompoundBondForce.h" line="400" column="1" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomCompoundBondForce.h" bodystart="400" bodyend="407"/>
+    <listofallmembers>
+      <member refid="classOpenMM_1_1CustomCompoundBondForce_1_1BondParameterInfo_1a03ec170ff3bd6e92efeaf3cc27643b12" prot="public" virt="non-virtual"><scope>OpenMM::CustomCompoundBondForce::BondParameterInfo</scope><name>BondParameterInfo</name></member>
+      <member refid="classOpenMM_1_1CustomCompoundBondForce_1_1BondParameterInfo_1aeffc081083a8dfd86affd6c838e879e1" prot="public" virt="non-virtual"><scope>OpenMM::CustomCompoundBondForce::BondParameterInfo</scope><name>BondParameterInfo</name></member>
+      <member refid="classOpenMM_1_1CustomCompoundBondForce_1_1BondParameterInfo_1a059b8f146a1765b61b23ca430079d9c8" prot="public" virt="non-virtual"><scope>OpenMM::CustomCompoundBondForce::BondParameterInfo</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

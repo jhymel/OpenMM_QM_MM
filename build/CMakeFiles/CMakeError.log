@@ -1,0 +1,55 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ecb11/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ecb11.dir/build.make CMakeFiles/cmTC_ecb11.dir/build
+gmake[1]: Entering directory `/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ecb11.dir/src.c.o
+/usr/local/pace-apps/spack/packages/0.13/linux-rhel7-cascadelake/intel-19.0.5/mvapich2-2.3.2-hpgbkqoytbjh35qn2t63rdorepxcezek/bin/mpicc -DCMAKE_HAVE_LIBC_PTHREAD  -I/usr/local/pace-apps/manual/packages/cuda/10.0/include  -MD -MT CMakeFiles/cmTC_ecb11.dir/src.c.o -MF CMakeFiles/cmTC_ecb11.dir/src.c.o.d -o CMakeFiles/cmTC_ecb11.dir/src.c.o -c /storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ecb11
+/storage/coda1/p-jmcdaniel43/0/jhymel6/.conda/envs/OpenMM_QM_MM/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecb11.dir/link.txt --verbose=1
+/usr/local/pace-apps/spack/packages/0.13/linux-rhel7-cascadelake/intel-19.0.5/mvapich2-2.3.2-hpgbkqoytbjh35qn2t63rdorepxcezek/bin/mpicc -I/usr/local/pace-apps/manual/packages/cuda/10.0/include  -L/usr/local/pace-apps/manual/packages/cuda/10.0/lib64  CMakeFiles/cmTC_ecb11.dir/src.c.o -o cmTC_ecb11 
+/usr/bin/ld: CMakeFiles/cmTC_ecb11.dir/src.c.o: undefined reference to symbol 'pthread_cancel@@GLIBC_2.2.5'
+//usr/lib64/libpthread.so.0: error adding symbols: DSO missing from command line
+gmake[1]: *** [cmTC_ecb11] Error 1
+gmake[1]: Leaving directory `/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_ecb11/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1b439/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1b439.dir/build.make CMakeFiles/cmTC_1b439.dir/build
+gmake[1]: Entering directory `/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1b439.dir/CheckFunctionExists.c.o
+/usr/local/pace-apps/spack/packages/0.13/linux-rhel7-cascadelake/intel-19.0.5/mvapich2-2.3.2-hpgbkqoytbjh35qn2t63rdorepxcezek/bin/mpicc   -I/usr/local/pace-apps/manual/packages/cuda/10.0/include -DCHECK_FUNCTION_EXISTS=pthread_create -MD -MT CMakeFiles/cmTC_1b439.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_1b439.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_1b439.dir/CheckFunctionExists.c.o -c /storage/coda1/p-jmcdaniel43/0/jhymel6/.conda/envs/OpenMM_QM_MM/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1b439
+/storage/coda1/p-jmcdaniel43/0/jhymel6/.conda/envs/OpenMM_QM_MM/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b439.dir/link.txt --verbose=1
+/usr/local/pace-apps/spack/packages/0.13/linux-rhel7-cascadelake/intel-19.0.5/mvapich2-2.3.2-hpgbkqoytbjh35qn2t63rdorepxcezek/bin/mpicc -I/usr/local/pace-apps/manual/packages/cuda/10.0/include -DCHECK_FUNCTION_EXISTS=pthread_create -L/usr/local/pace-apps/manual/packages/cuda/10.0/lib64  CMakeFiles/cmTC_1b439.dir/CheckFunctionExists.c.o -o cmTC_1b439  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+gmake[1]: *** [cmTC_1b439] Error 1
+gmake[1]: Leaving directory `/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_1b439/fast] Error 2
+
+
+

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classOpenMM_1_1CustomCentroidBondForce_1_1GlobalParameterInfo" kind="class" language="C++" prot="private">
+    <compoundname>OpenMM::CustomCentroidBondForce::GlobalParameterInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classOpenMM_1_1CustomCentroidBondForce_1_1GlobalParameterInfo_1a936a8c3b3aa9b19dd477c849ccb97246" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string OpenMM::CustomCentroidBondForce::GlobalParameterInfo::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomCentroidBondForce.h" line="453" column="17" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomCentroidBondForce.h" bodystart="453" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classOpenMM_1_1CustomCentroidBondForce_1_1GlobalParameterInfo_1a61441817214c67c0796e1bc284265997" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double OpenMM::CustomCentroidBondForce::GlobalParameterInfo::defaultValue</definition>
+        <argsstring></argsstring>
+        <name>defaultValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomCentroidBondForce.h" line="454" column="12" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomCentroidBondForce.h" bodystart="454" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classOpenMM_1_1CustomCentroidBondForce_1_1GlobalParameterInfo_1a93ab074faf602947e542c46e0b535abf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>OpenMM::CustomCentroidBondForce::GlobalParameterInfo::GlobalParameterInfo</definition>
+        <argsstring>()</argsstring>
+        <name>GlobalParameterInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomCentroidBondForce.h" line="455" column="5" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomCentroidBondForce.h" bodystart="455" bodyend="456"/>
+      </memberdef>
+      <memberdef kind="function" id="classOpenMM_1_1CustomCentroidBondForce_1_1GlobalParameterInfo_1a6d0f6e8d88c328e730639906bc9ab4bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>OpenMM::CustomCentroidBondForce::GlobalParameterInfo::GlobalParameterInfo</definition>
+        <argsstring>(const std::string &amp;name, double defaultValue)</argsstring>
+        <name>GlobalParameterInfo</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>defaultValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomCentroidBondForce.h" line="457" column="5" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomCentroidBondForce.h" bodystart="457" bodyend="458"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This is an internal class used to record information about a global parameter. </para>
+    </detaileddescription>
+    <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomCentroidBondForce.h" line="451" column="1" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomCentroidBondForce.h" bodystart="451" bodyend="459"/>
+    <listofallmembers>
+      <member refid="classOpenMM_1_1CustomCentroidBondForce_1_1GlobalParameterInfo_1a61441817214c67c0796e1bc284265997" prot="public" virt="non-virtual"><scope>OpenMM::CustomCentroidBondForce::GlobalParameterInfo</scope><name>defaultValue</name></member>
+      <member refid="classOpenMM_1_1CustomCentroidBondForce_1_1GlobalParameterInfo_1a93ab074faf602947e542c46e0b535abf" prot="public" virt="non-virtual"><scope>OpenMM::CustomCentroidBondForce::GlobalParameterInfo</scope><name>GlobalParameterInfo</name></member>
+      <member refid="classOpenMM_1_1CustomCentroidBondForce_1_1GlobalParameterInfo_1a6d0f6e8d88c328e730639906bc9ab4bd" prot="public" virt="non-virtual"><scope>OpenMM::CustomCentroidBondForce::GlobalParameterInfo</scope><name>GlobalParameterInfo</name></member>
+      <member refid="classOpenMM_1_1CustomCentroidBondForce_1_1GlobalParameterInfo_1a936a8c3b3aa9b19dd477c849ccb97246" prot="public" virt="non-virtual"><scope>OpenMM::CustomCentroidBondForce::GlobalParameterInfo</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

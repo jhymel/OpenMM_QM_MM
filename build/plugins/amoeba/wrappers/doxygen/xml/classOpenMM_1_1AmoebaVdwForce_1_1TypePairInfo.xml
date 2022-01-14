@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classOpenMM_1_1AmoebaVdwForce_1_1TypePairInfo" kind="class" language="C++" prot="private">
+    <compoundname>OpenMM::AmoebaVdwForce::TypePairInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classOpenMM_1_1AmoebaVdwForce_1_1TypePairInfo_1ae1a6ffcf0d3b3a95c1263104ca8930a0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int OpenMM::AmoebaVdwForce::TypePairInfo::type1</definition>
+        <argsstring></argsstring>
+        <name>type1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/plugins/amoeba/openmmapi/include/openmm/AmoebaVdwForce.h" line="525" column="9" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/plugins/amoeba/openmmapi/include/openmm/AmoebaVdwForce.h" bodystart="525" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classOpenMM_1_1AmoebaVdwForce_1_1TypePairInfo_1af35433f64c6358cbd88602fd8ad3c93f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int OpenMM::AmoebaVdwForce::TypePairInfo::type2</definition>
+        <argsstring></argsstring>
+        <name>type2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/plugins/amoeba/openmmapi/include/openmm/AmoebaVdwForce.h" line="525" column="15" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/plugins/amoeba/openmmapi/include/openmm/AmoebaVdwForce.h" bodystart="525" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classOpenMM_1_1AmoebaVdwForce_1_1TypePairInfo_1a69268427f0ac8fedd8523df992be7d06" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double OpenMM::AmoebaVdwForce::TypePairInfo::sigma</definition>
+        <argsstring></argsstring>
+        <name>sigma</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/plugins/amoeba/openmmapi/include/openmm/AmoebaVdwForce.h" line="526" column="12" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/plugins/amoeba/openmmapi/include/openmm/AmoebaVdwForce.h" bodystart="526" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classOpenMM_1_1AmoebaVdwForce_1_1TypePairInfo_1aa284cc021258165a78fd0c9d576065b1" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double OpenMM::AmoebaVdwForce::TypePairInfo::epsilon</definition>
+        <argsstring></argsstring>
+        <name>epsilon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/plugins/amoeba/openmmapi/include/openmm/AmoebaVdwForce.h" line="526" column="18" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/plugins/amoeba/openmmapi/include/openmm/AmoebaVdwForce.h" bodystart="526" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classOpenMM_1_1AmoebaVdwForce_1_1TypePairInfo_1a84f1a3af152c700e1bc5cd6af75baec5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>OpenMM::AmoebaVdwForce::TypePairInfo::TypePairInfo</definition>
+        <argsstring>()</argsstring>
+        <name>TypePairInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/plugins/amoeba/openmmapi/include/openmm/AmoebaVdwForce.h" line="527" column="5" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/plugins/amoeba/openmmapi/include/openmm/AmoebaVdwForce.h" bodystart="527" bodyend="528"/>
+      </memberdef>
+      <memberdef kind="function" id="classOpenMM_1_1AmoebaVdwForce_1_1TypePairInfo_1aa8d7682900a02a4c6d4c3d6c37298d87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>OpenMM::AmoebaVdwForce::TypePairInfo::TypePairInfo</definition>
+        <argsstring>(int type1, int type2, double sigma, double epsilon)</argsstring>
+        <name>TypePairInfo</name>
+        <param>
+          <type>int</type>
+          <declname>type1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sigma</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>epsilon</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/plugins/amoeba/openmmapi/include/openmm/AmoebaVdwForce.h" line="529" column="5" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/plugins/amoeba/openmmapi/include/openmm/AmoebaVdwForce.h" bodystart="529" bodyend="531"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This is an internal class used to record information about a type pair. </para>
+    </detaileddescription>
+    <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/plugins/amoeba/openmmapi/include/openmm/AmoebaVdwForce.h" line="523" column="1" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/plugins/amoeba/openmmapi/include/openmm/AmoebaVdwForce.h" bodystart="523" bodyend="532"/>
+    <listofallmembers>
+      <member refid="classOpenMM_1_1AmoebaVdwForce_1_1TypePairInfo_1aa284cc021258165a78fd0c9d576065b1" prot="public" virt="non-virtual"><scope>OpenMM::AmoebaVdwForce::TypePairInfo</scope><name>epsilon</name></member>
+      <member refid="classOpenMM_1_1AmoebaVdwForce_1_1TypePairInfo_1a69268427f0ac8fedd8523df992be7d06" prot="public" virt="non-virtual"><scope>OpenMM::AmoebaVdwForce::TypePairInfo</scope><name>sigma</name></member>
+      <member refid="classOpenMM_1_1AmoebaVdwForce_1_1TypePairInfo_1ae1a6ffcf0d3b3a95c1263104ca8930a0" prot="public" virt="non-virtual"><scope>OpenMM::AmoebaVdwForce::TypePairInfo</scope><name>type1</name></member>
+      <member refid="classOpenMM_1_1AmoebaVdwForce_1_1TypePairInfo_1af35433f64c6358cbd88602fd8ad3c93f" prot="public" virt="non-virtual"><scope>OpenMM::AmoebaVdwForce::TypePairInfo</scope><name>type2</name></member>
+      <member refid="classOpenMM_1_1AmoebaVdwForce_1_1TypePairInfo_1a84f1a3af152c700e1bc5cd6af75baec5" prot="public" virt="non-virtual"><scope>OpenMM::AmoebaVdwForce::TypePairInfo</scope><name>TypePairInfo</name></member>
+      <member refid="classOpenMM_1_1AmoebaVdwForce_1_1TypePairInfo_1aa8d7682900a02a4c6d4c3d6c37298d87" prot="public" virt="non-virtual"><scope>OpenMM::AmoebaVdwForce::TypePairInfo</scope><name>TypePairInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

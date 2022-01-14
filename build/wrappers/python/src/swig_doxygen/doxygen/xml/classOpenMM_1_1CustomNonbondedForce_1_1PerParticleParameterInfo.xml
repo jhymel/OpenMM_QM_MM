@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classOpenMM_1_1CustomNonbondedForce_1_1PerParticleParameterInfo" kind="class" language="C++" prot="private">
+    <compoundname>OpenMM::CustomNonbondedForce::PerParticleParameterInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classOpenMM_1_1CustomNonbondedForce_1_1PerParticleParameterInfo_1aec1b40bc85c95c28457a4fd534e3906a" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string OpenMM::CustomNonbondedForce::PerParticleParameterInfo::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomNonbondedForce.h" line="556" column="17" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomNonbondedForce.h" bodystart="556" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classOpenMM_1_1CustomNonbondedForce_1_1PerParticleParameterInfo_1afe4f7e7f976c0cf399a078cb78cebcfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>OpenMM::CustomNonbondedForce::PerParticleParameterInfo::PerParticleParameterInfo</definition>
+        <argsstring>()</argsstring>
+        <name>PerParticleParameterInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomNonbondedForce.h" line="557" column="5" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomNonbondedForce.h" bodystart="557" bodyend="558"/>
+      </memberdef>
+      <memberdef kind="function" id="classOpenMM_1_1CustomNonbondedForce_1_1PerParticleParameterInfo_1ac10c506193eeeb247797f7bed978f65f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>OpenMM::CustomNonbondedForce::PerParticleParameterInfo::PerParticleParameterInfo</definition>
+        <argsstring>(const std::string &amp;name)</argsstring>
+        <name>PerParticleParameterInfo</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomNonbondedForce.h" line="559" column="5" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomNonbondedForce.h" bodystart="559" bodyend="560"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This is an internal class used to record information about a per-particle parameter. </para>
+    </detaileddescription>
+    <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomNonbondedForce.h" line="554" column="1" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomNonbondedForce.h" bodystart="554" bodyend="561"/>
+    <listofallmembers>
+      <member refid="classOpenMM_1_1CustomNonbondedForce_1_1PerParticleParameterInfo_1aec1b40bc85c95c28457a4fd534e3906a" prot="public" virt="non-virtual"><scope>OpenMM::CustomNonbondedForce::PerParticleParameterInfo</scope><name>name</name></member>
+      <member refid="classOpenMM_1_1CustomNonbondedForce_1_1PerParticleParameterInfo_1afe4f7e7f976c0cf399a078cb78cebcfc" prot="public" virt="non-virtual"><scope>OpenMM::CustomNonbondedForce::PerParticleParameterInfo</scope><name>PerParticleParameterInfo</name></member>
+      <member refid="classOpenMM_1_1CustomNonbondedForce_1_1PerParticleParameterInfo_1ac10c506193eeeb247797f7bed978f65f" prot="public" virt="non-virtual"><scope>OpenMM::CustomNonbondedForce::PerParticleParameterInfo</scope><name>PerParticleParameterInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

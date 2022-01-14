@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="OpenMMDrude_8h" kind="file" language="C++">
+    <compoundname>OpenMMDrude.h</compoundname>
+    <includes refid="DrudeForce_8h" local="yes">openmm/DrudeForce.h</includes>
+    <includes refid="DrudeLangevinIntegrator_8h" local="yes">openmm/DrudeLangevinIntegrator.h</includes>
+    <includes refid="DrudeSCFIntegrator_8h" local="yes">openmm/DrudeSCFIntegrator.h</includes>
+    <includes refid="DrudeNoseHooverIntegrator_8h" local="yes">openmm/DrudeNoseHooverIntegrator.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>openmm/Context.h</label>
+        <link refid="Context_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>openmm/Force.h</label>
+        <link refid="Force_8h_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Integrator.h</label>
+        <link refid="Integrator_8h_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>NoseHooverChain.h</label>
+        <link refid="NoseHooverChain_8h_source"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>openmm/NoseHooverIntegrator.h</label>
+        <link refid="NoseHooverIntegrator_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>openmm/OpenMMException.h</label>
+        <link refid="OpenMMException_8h_source"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>State.h</label>
+        <link refid="State_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>System.h</label>
+        <link refid="System_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Vec3.h</label>
+        <link refid="Vec3_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/plugins/drude/openmmapi/include/OpenMMDrude.h</label>
+        <link refid="OpenMMDrude_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>openmm/DrudeForce.h</label>
+        <link refid="DrudeForce_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>openmm/DrudeIntegrator.h</label>
+        <link refid="DrudeIntegrator_8h_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>openmm/DrudeLangevinIntegrator.h</label>
+        <link refid="DrudeLangevinIntegrator_8h_source"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>openmm/DrudeNoseHooverIntegrator.h</label>
+        <link refid="DrudeNoseHooverIntegrator_8h_source"/>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>openmm/DrudeSCFIntegrator.h</label>
+        <link refid="DrudeSCFIntegrator_8h_source"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>openmm/serialization/SerializationNode.h</label>
+        <link refid="SerializationNode_8h_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>openmm/serialization/SerializationProxy.h</label>
+        <link refid="SerializationProxy_8h_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>cassert</label>
+      </node>
+      <node id="16">
+        <label>exception</label>
+      </node>
+      <node id="20">
+        <label>internal/OSRngSeed.h</label>
+      </node>
+      <node id="18">
+        <label>internal/windowsExport.h</label>
+      </node>
+      <node id="22">
+        <label>internal/windowsExportDrude.h</label>
+      </node>
+      <node id="8">
+        <label>iosfwd</label>
+      </node>
+      <node id="12">
+        <label>map</label>
+      </node>
+      <node id="25">
+        <label>openmm/Kernel.h</label>
+      </node>
+      <node id="11">
+        <label>openmm/internal/windowsExport.h</label>
+      </node>
+      <node id="26">
+        <label>openmm/internal/windowsExportDrude.h</label>
+      </node>
+      <node id="13">
+        <label>string</label>
+      </node>
+      <node id="31">
+        <label>tuple</label>
+      </node>
+      <node id="14">
+        <label>typeinfo</label>
+      </node>
+      <node id="17">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/plugins/drude/openmmapi/include/OpenMMDrude.h"/>
+  </compounddef>
+</doxygen>

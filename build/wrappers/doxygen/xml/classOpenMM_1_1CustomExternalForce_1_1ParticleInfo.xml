@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classOpenMM_1_1CustomExternalForce_1_1ParticleInfo" kind="class" language="C++" prot="private">
+    <compoundname>OpenMM::CustomExternalForce::ParticleInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classOpenMM_1_1CustomExternalForce_1_1ParticleInfo_1ae1558a608d25dd6587a0ca8bd6b617e6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int OpenMM::CustomExternalForce::ParticleInfo::particle</definition>
+        <argsstring></argsstring>
+        <name>particle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomExternalForce.h" line="251" column="9" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomExternalForce.h" bodystart="251" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classOpenMM_1_1CustomExternalForce_1_1ParticleInfo_1a60c918766d2b46a85874d74ca20a12f1" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; OpenMM::CustomExternalForce::ParticleInfo::parameters</definition>
+        <argsstring></argsstring>
+        <name>parameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomExternalForce.h" line="252" column="17" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomExternalForce.h" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classOpenMM_1_1CustomExternalForce_1_1ParticleInfo_1a3b6b7ae1799d763f2ed302e50f372cdb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>OpenMM::CustomExternalForce::ParticleInfo::ParticleInfo</definition>
+        <argsstring>()</argsstring>
+        <name>ParticleInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomExternalForce.h" line="253" column="5" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomExternalForce.h" bodystart="253" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="classOpenMM_1_1CustomExternalForce_1_1ParticleInfo_1ae9d0464f285ca6bc434ec75d635b5bbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>OpenMM::CustomExternalForce::ParticleInfo::ParticleInfo</definition>
+        <argsstring>(int particle, const std::vector&lt; double &gt; &amp;parameters)</argsstring>
+        <name>ParticleInfo</name>
+        <param>
+          <type>int</type>
+          <declname>particle</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>parameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomExternalForce.h" line="255" column="5" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomExternalForce.h" bodystart="255" bodyend="256"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This is an internal class used to record information about a particle. </para>
+    </detaileddescription>
+    <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomExternalForce.h" line="249" column="1" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomExternalForce.h" bodystart="249" bodyend="257"/>
+    <listofallmembers>
+      <member refid="classOpenMM_1_1CustomExternalForce_1_1ParticleInfo_1a60c918766d2b46a85874d74ca20a12f1" prot="public" virt="non-virtual"><scope>OpenMM::CustomExternalForce::ParticleInfo</scope><name>parameters</name></member>
+      <member refid="classOpenMM_1_1CustomExternalForce_1_1ParticleInfo_1ae1558a608d25dd6587a0ca8bd6b617e6" prot="public" virt="non-virtual"><scope>OpenMM::CustomExternalForce::ParticleInfo</scope><name>particle</name></member>
+      <member refid="classOpenMM_1_1CustomExternalForce_1_1ParticleInfo_1a3b6b7ae1799d763f2ed302e50f372cdb" prot="public" virt="non-virtual"><scope>OpenMM::CustomExternalForce::ParticleInfo</scope><name>ParticleInfo</name></member>
+      <member refid="classOpenMM_1_1CustomExternalForce_1_1ParticleInfo_1ae9d0464f285ca6bc434ec75d635b5bbb" prot="public" virt="non-virtual"><scope>OpenMM::CustomExternalForce::ParticleInfo</scope><name>ParticleInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

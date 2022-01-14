@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classOpenMM_1_1TabulatedFunction" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>OpenMM::TabulatedFunction</compoundname>
+    <derivedcompoundref refid="classOpenMM_1_1Continuous1DFunction" prot="public" virt="non-virtual">OpenMM::Continuous1DFunction</derivedcompoundref>
+    <derivedcompoundref refid="classOpenMM_1_1Continuous2DFunction" prot="public" virt="non-virtual">OpenMM::Continuous2DFunction</derivedcompoundref>
+    <derivedcompoundref refid="classOpenMM_1_1Continuous3DFunction" prot="public" virt="non-virtual">OpenMM::Continuous3DFunction</derivedcompoundref>
+    <derivedcompoundref refid="classOpenMM_1_1Discrete1DFunction" prot="public" virt="non-virtual">OpenMM::Discrete1DFunction</derivedcompoundref>
+    <derivedcompoundref refid="classOpenMM_1_1Discrete2DFunction" prot="public" virt="non-virtual">OpenMM::Discrete2DFunction</derivedcompoundref>
+    <derivedcompoundref refid="classOpenMM_1_1Discrete3DFunction" prot="public" virt="non-virtual">OpenMM::Discrete3DFunction</derivedcompoundref>
+    <includes refid="TabulatedFunction_8h" local="no">TabulatedFunction.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classOpenMM_1_1TabulatedFunction_1abab41e8ee1a8f4584a653d4134115017" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool OpenMM::TabulatedFunction::periodic</definition>
+        <argsstring></argsstring>
+        <name>periodic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/TabulatedFunction.h" line="75" column="10" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/TabulatedFunction.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classOpenMM_1_1TabulatedFunction_1a05a008921f73a6a35179ca9b1440dd0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual OpenMM::TabulatedFunction::~TabulatedFunction</definition>
+        <argsstring>()</argsstring>
+        <name>~TabulatedFunction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/TabulatedFunction.h" line="60" column="13" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/TabulatedFunction.h" bodystart="60" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classOpenMM_1_1TabulatedFunction_1adce303d356f47ce25bad0d8f426f9d00" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="classOpenMM_1_1TabulatedFunction" kindref="compound">TabulatedFunction</ref> *</type>
+        <definition>virtual TabulatedFunction * OpenMM::TabulatedFunction::Copy</definition>
+        <argsstring>() const =0</argsstring>
+        <name>Copy</name>
+        <reimplementedby refid="classOpenMM_1_1Continuous1DFunction_1aac20b9417021468e15f10ede2cff61fa">Copy</reimplementedby>
+        <reimplementedby refid="classOpenMM_1_1Continuous2DFunction_1a80e500513dbf535466209d38a67b7be8">Copy</reimplementedby>
+        <reimplementedby refid="classOpenMM_1_1Continuous3DFunction_1aa0ec2b649474cc778fb65d24925b99d3">Copy</reimplementedby>
+        <reimplementedby refid="classOpenMM_1_1Discrete1DFunction_1a579e812c06b945dc99d86b5989682bc2">Copy</reimplementedby>
+        <reimplementedby refid="classOpenMM_1_1Discrete2DFunction_1a5c20f7508147fec13c7119badbd84951">Copy</reimplementedby>
+        <reimplementedby refid="classOpenMM_1_1Discrete3DFunction_1a2671186b0c312538be1643c2ba7c71fe">Copy</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><xrefsect id="deprecated_1_deprecated000019"><xreftitle>Deprecated</xreftitle><xrefdescription><para>This will be removed in a future release. </para>
+</xrefdescription></xrefsect></para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/TabulatedFunction.h" line="65" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classOpenMM_1_1TabulatedFunction_1aef47933ac326aae1ea502c2b6a7dffd2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool OpenMM::TabulatedFunction::getPeriodic</definition>
+        <argsstring>() const</argsstring>
+        <name>getPeriodic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the periodicity status of the tabulated function. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/TabulatedFunction.h" line="69" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classOpenMM_1_1TabulatedFunction_1ac7b903e168af8fb26de6126863d385b8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool OpenMM::TabulatedFunction::operator==</definition>
+        <argsstring>(const TabulatedFunction &amp;other) const =0</argsstring>
+        <name>operator==</name>
+        <reimplementedby refid="classOpenMM_1_1Continuous1DFunction_1a955999dce4ff1d83db8adeab768a292e">operator==</reimplementedby>
+        <reimplementedby refid="classOpenMM_1_1Continuous2DFunction_1a07a5e9fac74527bab1b8ae5a416c1b6e">operator==</reimplementedby>
+        <reimplementedby refid="classOpenMM_1_1Continuous3DFunction_1a34b6825321b39b83ad9252dc594a3637">operator==</reimplementedby>
+        <reimplementedby refid="classOpenMM_1_1Discrete1DFunction_1acecb57ac97bc11d2a13e20ab7ca4a35b">operator==</reimplementedby>
+        <reimplementedby refid="classOpenMM_1_1Discrete2DFunction_1ae9825fddc9c4733c6f36553e1fd67e75">operator==</reimplementedby>
+        <reimplementedby refid="classOpenMM_1_1Discrete3DFunction_1a4aa735967ffebca42d6e80410afc67aa">operator==</reimplementedby>
+        <param>
+          <type>const <ref refid="classOpenMM_1_1TabulatedFunction" kindref="compound">TabulatedFunction</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/TabulatedFunction.h" line="70" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classOpenMM_1_1TabulatedFunction_1a0ce49dde966add4c82ae160d2f7e13db" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool OpenMM::TabulatedFunction::operator!=</definition>
+        <argsstring>(const TabulatedFunction &amp;other) const</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type>const <ref refid="classOpenMM_1_1TabulatedFunction" kindref="compound">TabulatedFunction</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/TabulatedFunction.h" line="71" column="18" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/TabulatedFunction.h" bodystart="71" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A <ref refid="classOpenMM_1_1TabulatedFunction" kindref="compound">TabulatedFunction</ref> uses a set of tabulated values to define a mathematical function. It can be used by various custom forces.</para>
+<para><ref refid="classOpenMM_1_1TabulatedFunction" kindref="compound">TabulatedFunction</ref> is an abstract class with concrete subclasses for more specific types of functions. There are subclasses for:</para>
+<para><itemizedlist>
+<listitem>
+<para>1, 2, and 3 dimensional functions. The dimensionality of a function means the number of input arguments it takes. </para>
+</listitem>
+<listitem>
+<para>Continuous and discrete functions. A continuous function is interpolated by fitting a natural cubic spline to the tabulated values. A discrete function is only defined for integer values of its arguments (that is, at the tabulated points), and does not try to interpolate between them. Discrete function can be evaluated more quickly than continuous ones. </para>
+</listitem>
+</itemizedlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>OpenMM::Continuous1DFunction</label>
+        <link refid="classOpenMM_1_1Continuous1DFunction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>OpenMM::Continuous2DFunction</label>
+        <link refid="classOpenMM_1_1Continuous2DFunction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>OpenMM::Continuous3DFunction</label>
+        <link refid="classOpenMM_1_1Continuous3DFunction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>OpenMM::Discrete1DFunction</label>
+        <link refid="classOpenMM_1_1Discrete1DFunction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>OpenMM::Discrete2DFunction</label>
+        <link refid="classOpenMM_1_1Discrete2DFunction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>OpenMM::Discrete3DFunction</label>
+        <link refid="classOpenMM_1_1Discrete3DFunction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>OpenMM::TabulatedFunction</label>
+        <link refid="classOpenMM_1_1TabulatedFunction"/>
+      </node>
+    </inheritancegraph>
+    <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/TabulatedFunction.h" line="58" column="1" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/TabulatedFunction.h" bodystart="58" bodyend="76"/>
+    <listofallmembers>
+      <member refid="classOpenMM_1_1TabulatedFunction_1adce303d356f47ce25bad0d8f426f9d00" prot="public" virt="pure-virtual"><scope>OpenMM::TabulatedFunction</scope><name>Copy</name></member>
+      <member refid="classOpenMM_1_1TabulatedFunction_1aef47933ac326aae1ea502c2b6a7dffd2" prot="public" virt="non-virtual"><scope>OpenMM::TabulatedFunction</scope><name>getPeriodic</name></member>
+      <member refid="classOpenMM_1_1TabulatedFunction_1a0ce49dde966add4c82ae160d2f7e13db" prot="public" virt="virtual"><scope>OpenMM::TabulatedFunction</scope><name>operator!=</name></member>
+      <member refid="classOpenMM_1_1TabulatedFunction_1ac7b903e168af8fb26de6126863d385b8" prot="public" virt="pure-virtual"><scope>OpenMM::TabulatedFunction</scope><name>operator==</name></member>
+      <member refid="classOpenMM_1_1TabulatedFunction_1abab41e8ee1a8f4584a653d4134115017" prot="protected" virt="non-virtual"><scope>OpenMM::TabulatedFunction</scope><name>periodic</name></member>
+      <member refid="classOpenMM_1_1TabulatedFunction_1a05a008921f73a6a35179ca9b1440dd0f" prot="public" virt="virtual"><scope>OpenMM::TabulatedFunction</scope><name>~TabulatedFunction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

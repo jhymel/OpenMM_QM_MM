@@ -1,0 +1,21 @@
+---------------------------------------
+Begin PBS Prologue Fri Jan 14 10:40:16 EST 2022
+Job ID:     3834832.sched-torque.pace.gatech.edu
+User ID:    jhymel6
+Job name:   build_openmm
+Queue:      inferno
+End PBS Prologue Fri Jan 14 10:40:16 EST 2022
+---------------------------------------
+atl1-1-03-006-17.pace.gatech.edu
+---------------------------------------
+Begin PBS Epilogue Fri Jan 14 11:49:41 EST 2022
+Job ID:     3834832.sched-torque.pace.gatech.edu
+User ID:    jhymel6
+Job name:   build_openmm
+Resources:  nodes=1:ppn=2:gpus=1:RTX6000:default,walltime=02:30:00,neednodes=1:ppn=2:gpus=1:RTX6000:default
+Rsrc Used:  cput=01:04:26,vmem=3997264kb,walltime=01:09:25,mem=1829220kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-03-006-17.pace.gatech.edu
+End PBS Epilogue Fri Jan 14 11:49:41 EST 2022
+---------------------------------------

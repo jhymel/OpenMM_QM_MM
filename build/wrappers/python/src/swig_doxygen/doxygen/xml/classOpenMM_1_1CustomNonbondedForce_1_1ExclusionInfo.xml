@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classOpenMM_1_1CustomNonbondedForce_1_1ExclusionInfo" kind="class" language="C++" prot="private">
+    <compoundname>OpenMM::CustomNonbondedForce::ExclusionInfo</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classOpenMM_1_1CustomNonbondedForce_1_1ExclusionInfo_1a5d3eadf75f73cef432aae7e14fdbc1a1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int OpenMM::CustomNonbondedForce::ExclusionInfo::particle1</definition>
+        <argsstring></argsstring>
+        <name>particle1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomNonbondedForce.h" line="583" column="9" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomNonbondedForce.h" bodystart="583" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classOpenMM_1_1CustomNonbondedForce_1_1ExclusionInfo_1ae452b7923c7da3b919b6a338ca718f6f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int OpenMM::CustomNonbondedForce::ExclusionInfo::particle2</definition>
+        <argsstring></argsstring>
+        <name>particle2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomNonbondedForce.h" line="583" column="19" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomNonbondedForce.h" bodystart="583" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classOpenMM_1_1CustomNonbondedForce_1_1ExclusionInfo_1aaee38d412fa1b6e610c6964b96c0c6e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>OpenMM::CustomNonbondedForce::ExclusionInfo::ExclusionInfo</definition>
+        <argsstring>()</argsstring>
+        <name>ExclusionInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomNonbondedForce.h" line="584" column="5" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomNonbondedForce.h" bodystart="584" bodyend="586"/>
+      </memberdef>
+      <memberdef kind="function" id="classOpenMM_1_1CustomNonbondedForce_1_1ExclusionInfo_1a4ac99fbf430af64c38317d1c4b79519a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>OpenMM::CustomNonbondedForce::ExclusionInfo::ExclusionInfo</definition>
+        <argsstring>(int particle1, int particle2)</argsstring>
+        <name>ExclusionInfo</name>
+        <param>
+          <type>int</type>
+          <declname>particle1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>particle2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomNonbondedForce.h" line="587" column="5" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomNonbondedForce.h" bodystart="587" bodyend="589"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This is an internal class used to record information about an exclusion. </para>
+    </detaileddescription>
+    <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomNonbondedForce.h" line="581" column="1" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CustomNonbondedForce.h" bodystart="581" bodyend="590"/>
+    <listofallmembers>
+      <member refid="classOpenMM_1_1CustomNonbondedForce_1_1ExclusionInfo_1aaee38d412fa1b6e610c6964b96c0c6e4" prot="public" virt="non-virtual"><scope>OpenMM::CustomNonbondedForce::ExclusionInfo</scope><name>ExclusionInfo</name></member>
+      <member refid="classOpenMM_1_1CustomNonbondedForce_1_1ExclusionInfo_1a4ac99fbf430af64c38317d1c4b79519a" prot="public" virt="non-virtual"><scope>OpenMM::CustomNonbondedForce::ExclusionInfo</scope><name>ExclusionInfo</name></member>
+      <member refid="classOpenMM_1_1CustomNonbondedForce_1_1ExclusionInfo_1a5d3eadf75f73cef432aae7e14fdbc1a1" prot="public" virt="non-virtual"><scope>OpenMM::CustomNonbondedForce::ExclusionInfo</scope><name>particle1</name></member>
+      <member refid="classOpenMM_1_1CustomNonbondedForce_1_1ExclusionInfo_1ae452b7923c7da3b919b6a338ca718f6f" prot="public" virt="non-virtual"><scope>OpenMM::CustomNonbondedForce::ExclusionInfo</scope><name>particle2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

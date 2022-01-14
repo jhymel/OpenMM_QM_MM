@@ -1,0 +1,25 @@
+
+Modules Loaded:
+  1) cuda/9.0   2) anaconda3/latest   3) cmake/3.11.1   4) intel/19.0
+
+# load swig environment
+#source activate swig3.0.12
+source activate gcc72
+
+# for some reason opencl on pace cant find opengl, disable opencl build...
+
+# cmake configure line
+cmake -H. -Bbuild -DPYTHON_EXECUTABLE=~/.conda/envs/gcc72/bin/python -DOPENMM_BUILD_OPENCL_LIB=OFF -DOPENMM_BUILD_CUDA_LIB=ON -DCMAKE_INSTALL_PREFIX=/nv/hp22/jmcdaniel43/data/Programs/openmm/openmm -DPYTHON_EXECUTABLE=~/.conda/envs/gcc72/bin/python
+
+
+# Note that CUDA tests will fail if run on GPU in 'exclusive_process' mode, see https://github.com/pandegroup/openmm/issues/1728
+# Solution is to run in default mode, using 'qsub -l nodes=1:ppn=1:gpus=1:default'
+
+
+Note we have two anaconda environments for compiling OpenMM.  This is because one (swig3.0.12) is standalone, while the other is meant for compiling both Psi4 and OpenMM for QM/MM (gcc72_swig3.0.12)
+the reason we keep the standalone environment is in case there are ever conflicting issues between Psi4/OpenMM dependencies that we need to debug.  
+
+
+
+# cmake configure to build the dual nose-hoover plugin  from plugins/openmm_drudeNose-master
+#cmake -H. -B/nv/hp22/jmcdaniel43/data/Programs/openmm-7.3/build_openmm_drudeNose-master -DCUDA_TOOLKIT_ROOT_DIR=/usr/local/pacerepov2/cuda/9.0 -DDRUDENOSE_BUILD_CUDA_LIB=ON -DOPENMM_DIR=/nv/hp22/jmcdaniel43/data/Programs/openmm-7.3/openmm -DCMAKE_INSTALL_PREFIX=/nv/hp22/jmcdaniel43/data/Programs/openmm-7.3/openmm -DPYTHON_EXECUTABLE=~/.conda/envs/swig3.0.12/bin/python

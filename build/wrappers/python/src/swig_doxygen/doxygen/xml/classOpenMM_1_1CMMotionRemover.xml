@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classOpenMM_1_1CMMotionRemover" kind="class" language="C++" prot="public">
+    <compoundname>OpenMM::CMMotionRemover</compoundname>
+    <basecompoundref refid="classOpenMM_1_1Force" prot="public" virt="non-virtual">OpenMM::Force</basecompoundref>
+    <includes refid="CMMotionRemover_8h" local="no">CMMotionRemover.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classOpenMM_1_1CMMotionRemover_1a8cd730f5887663ee0bb656c896079531" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int OpenMM::CMMotionRemover::frequency</definition>
+        <argsstring></argsstring>
+        <name>frequency</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CMMotionRemover.h" line="74" column="9" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CMMotionRemover.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classOpenMM_1_1CMMotionRemover_1adf7b84ef686e0041c015a12ace760209" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>OpenMM::CMMotionRemover::CMMotionRemover</definition>
+        <argsstring>(int frequency=1)</argsstring>
+        <name>CMMotionRemover</name>
+        <param>
+          <type>int</type>
+          <declname>frequency</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a <ref refid="classOpenMM_1_1CMMotionRemover" kindref="compound">CMMotionRemover</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CMMotionRemover.h" line="51" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classOpenMM_1_1CMMotionRemover_1a1754a6a586dccaa9a3946d4904adc093" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int OpenMM::CMMotionRemover::getFrequency</definition>
+        <argsstring>() const</argsstring>
+        <name>getFrequency</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the frequency (in time steps) at which center of mass motion should be removed </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CMMotionRemover.h" line="55" column="9" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CMMotionRemover.h" bodystart="55" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classOpenMM_1_1CMMotionRemover_1a0e068d8bd03bbd02ff9a4830b9eebaa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void OpenMM::CMMotionRemover::setFrequency</definition>
+        <argsstring>(int freq)</argsstring>
+        <name>setFrequency</name>
+        <param>
+          <type>int</type>
+          <declname>freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the frequency (in time steps) at which center of mass motion should be removed </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CMMotionRemover.h" line="61" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classOpenMM_1_1CMMotionRemover_1a2ddf90c5f57c921708246327dd876f4e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>bool OpenMM::CMMotionRemover::usesPeriodicBoundaryConditions</definition>
+        <argsstring>() const</argsstring>
+        <name>usesPeriodicBoundaryConditions</name>
+        <reimplements refid="classOpenMM_1_1Force_1a955afab55a1cd8b24cdf91258477237f">usesPeriodicBoundaryConditions</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns whether or not this force makes use of periodic boundary conditions.</para>
+<para><simplesect kind="return"><para>true if force uses PBC and false otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CMMotionRemover.h" line="68" column="10" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CMMotionRemover.h" bodystart="68" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classOpenMM_1_1CMMotionRemover_1a6c00b73b75228d3159c6690f7f3c248f" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>ForceImpl *</type>
+        <definition>ForceImpl * OpenMM::CMMotionRemover::createImpl</definition>
+        <argsstring>() const</argsstring>
+        <name>createImpl</name>
+        <reimplements refid="classOpenMM_1_1Force_1a12dc4c2566ab670d47ef05bda169fa05">createImpl</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>When a <ref refid="classOpenMM_1_1Context" kindref="compound">Context</ref> is created, it invokes this method on each <ref refid="classOpenMM_1_1Force" kindref="compound">Force</ref> in the <ref refid="classOpenMM_1_1System" kindref="compound">System</ref>. It should create a new ForceImpl object which can be used by the context for calculating forces. The ForceImpl will be deleted automatically when the <ref refid="classOpenMM_1_1Context" kindref="compound">Context</ref> is deleted. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CMMotionRemover.h" line="72" column="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class prevents the center of mass of a <ref refid="classOpenMM_1_1System" kindref="compound">System</ref> from drifting. At each time step, it calculates the center of mass momentum, then adjusts the individual particle velocities to make it zero. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>OpenMM::CMMotionRemover</label>
+        <link refid="classOpenMM_1_1CMMotionRemover"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>OpenMM::Force</label>
+        <link refid="classOpenMM_1_1Force"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>OpenMM::CMMotionRemover</label>
+        <link refid="classOpenMM_1_1CMMotionRemover"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>OpenMM::Force</label>
+        <link refid="classOpenMM_1_1Force"/>
+      </node>
+    </collaborationgraph>
+    <location file="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CMMotionRemover.h" line="46" column="1" bodyfile="/storage/coda1/p-jmcdaniel43/0/jhymel6/OpenMM_verisons/openmm_7.7.0_qmmm/openmmapi/include/openmm/CMMotionRemover.h" bodystart="46" bodyend="75"/>
+    <listofallmembers>
+      <member refid="classOpenMM_1_1CMMotionRemover_1adf7b84ef686e0041c015a12ace760209" prot="public" virt="non-virtual"><scope>OpenMM::CMMotionRemover</scope><name>CMMotionRemover</name></member>
+      <member refid="classOpenMM_1_1CMMotionRemover_1a6c00b73b75228d3159c6690f7f3c248f" prot="protected" virt="virtual"><scope>OpenMM::CMMotionRemover</scope><name>createImpl</name></member>
+      <member refid="classOpenMM_1_1Force_1a40e75e251ec93d3bc9fc87b96026fbc2" prot="public" virt="non-virtual"><scope>OpenMM::CMMotionRemover</scope><name>Force</name></member>
+      <member refid="classOpenMM_1_1CMMotionRemover_1a8cd730f5887663ee0bb656c896079531" prot="private" virt="non-virtual"><scope>OpenMM::CMMotionRemover</scope><name>frequency</name></member>
+      <member refid="classOpenMM_1_1Force_1a152bbe8e42e036e697b587c0832e233b" prot="protected" virt="non-virtual"><scope>OpenMM::CMMotionRemover</scope><name>getContextImpl</name></member>
+      <member refid="classOpenMM_1_1Force_1ab9428f8447cba02d548963242dd674ff" prot="public" virt="non-virtual"><scope>OpenMM::CMMotionRemover</scope><name>getForceGroup</name></member>
+      <member refid="classOpenMM_1_1CMMotionRemover_1a1754a6a586dccaa9a3946d4904adc093" prot="public" virt="non-virtual"><scope>OpenMM::CMMotionRemover</scope><name>getFrequency</name></member>
+      <member refid="classOpenMM_1_1Force_1aef442934a17134fe13f5dcc40ada7b11" prot="protected" virt="non-virtual"><scope>OpenMM::CMMotionRemover</scope><name>getImplInContext</name></member>
+      <member refid="classOpenMM_1_1Force_1a1af3134b705088bd8ed5b6e7521db43d" prot="protected" virt="non-virtual"><scope>OpenMM::CMMotionRemover</scope><name>getImplInContext</name></member>
+      <member refid="classOpenMM_1_1Force_1a479fe60e5fe8e344109f794ecd7b7bab" prot="public" virt="non-virtual"><scope>OpenMM::CMMotionRemover</scope><name>getName</name></member>
+      <member refid="classOpenMM_1_1Force_1a53e3829a91825a9f6aa17e5ade713f84" prot="public" virt="non-virtual"><scope>OpenMM::CMMotionRemover</scope><name>setForceGroup</name></member>
+      <member refid="classOpenMM_1_1CMMotionRemover_1a0e068d8bd03bbd02ff9a4830b9eebaa5" prot="public" virt="non-virtual"><scope>OpenMM::CMMotionRemover</scope><name>setFrequency</name></member>
+      <member refid="classOpenMM_1_1Force_1ac0a383a4d4203427652f1ad5b2528215" prot="public" virt="non-virtual"><scope>OpenMM::CMMotionRemover</scope><name>setName</name></member>
+      <member refid="classOpenMM_1_1CMMotionRemover_1a2ddf90c5f57c921708246327dd876f4e" prot="public" virt="virtual"><scope>OpenMM::CMMotionRemover</scope><name>usesPeriodicBoundaryConditions</name></member>
+      <member refid="classOpenMM_1_1Force_1a6516b32ebeb95a694f56d93bdf81f4fb" prot="public" virt="virtual"><scope>OpenMM::CMMotionRemover</scope><name>~Force</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
