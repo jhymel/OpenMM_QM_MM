@@ -1,0 +1,20 @@
+#PBS -N build_openmm
+#PBS -q inferno
+#PBS -A GT-jmcdaniel43-chemx
+#PBS -o energies.$PBS_JOBID
+#PBS -e error.$PBS_JOBID
+#PBS -l nodes=1:ppn=2:gpus=1:RTX6000:default
+#PBS -l walltime=02:30:00
+
+cd $PBS_O_WORKDIR
+
+hostname
+
+module load anaconda3
+module load intel
+module load cuda/10.0
+
+source activate OpenMM_QM_MM
+
+./build_script.sh > build.out
+
