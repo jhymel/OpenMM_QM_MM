@@ -10,7 +10,8 @@
         return self._integrator
 
     def getState(self, getPositions=False, getVelocities=False,
-                 getForces=False, getEnergy=False, getParameters=False, getVext_grids=False,
+                 getForces=False, getEnergy=False, getParameters=False,
+                 getParameterDerivatives=False, getIntegratorParameters=False, getVext_grids=False,
                  enforcePeriodicBox=False, groups=-1):
         """Get a State object recording the current state information stored in this context.
 
